@@ -2,6 +2,7 @@
 
 The most common point of confusion for beginners is thinking Git and GitHub are the same thing. They are related, but they serve completely different purposes. One is the **engine**, and the other is the **garage**.
 
+![gitandgithub image](../assets/git%20and%20github.jpg)
 ### 🛠️ Git: The Engine (Local)
 
 Git is the actual **Version Control System**. It is software that you install locally on your computer.
