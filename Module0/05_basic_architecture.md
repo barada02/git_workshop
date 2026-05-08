@@ -51,4 +51,16 @@ The **Remote Repository** is a version of your project hosted on the internet or
 
 > **Pro-Tip:** If you ever feel lost, remember: **Add** prepares the photo, **Commit** takes the photo, and **Push** uploads the photo to the cloud.
 
+#### 🧠 Interview Insight
+
+If asked:
+
+👉 “What is the staging area in Git?”
+
+Answer:
+
+It is an intermediate layer where changes are prepared before committing
+It allows selective commits instead of committing everything at once
+
 ![basicflow](../assets/basicflow.png)
+
