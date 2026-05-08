@@ -44,3 +44,16 @@ Git belongs to this category. In a distributed system, you don't just "borrow" t
 In a **Centralized** system, the server is the one taking the "photos" (snapshots). If you can't reach the server, you can't take a photo.
 
 In **Git (Distributed)**, your own computer is the camera. You take snapshots locally whenever you want. Later, when you are back online, you simply share your "photo album" with the rest of the team. This is why Git is so much more powerful for modern development—it removes the bottleneck of the central server.
+
+### 🧠 Interview Insight (Very Important)
+
+If asked:
+
+👉 “Why is Git better than older systems?”
+
+Answer like this:
+
+Git is distributed → every developer has full history
+Faster because operations are local
+Safer because no single point of failure
+Enables better branching and merging workflow
