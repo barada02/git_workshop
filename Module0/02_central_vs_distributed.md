@@ -1,5 +1,9 @@
 To understand the shift from **Centralized** to **Distributed** systems, you have to look at where the "source of truth" lives and what happens when the cables are unplugged.
 
+![Alt text](../Assets/centralVsdistribute.jpg)
+
+
+
 ## 1. Centralized Version Control (CVCS)
 
 **The "Library" Model**
