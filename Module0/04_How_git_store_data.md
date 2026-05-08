@@ -20,14 +20,26 @@ Most older version control systems (like SVN) use **Delta-based** storage. They 
 When you make a commit in Git:
 
 * **If a file has changed:** Git takes a new "photo" of the entire file and stores a compressed version of it.
-* **If a file has NOT changed:** Git is smart. It doesn't take a new photo; it simply creates a **link** to the previous version it already has stored.
+* **If a file has NOT changed:** Git is smart. It doesn't take a new photo; it simply It just points to the previous version (creates a **link** to the previous version) it already has stored.
 * **The Result:** Your project history isn't a list of "edits"—it’s a stream of snapshots.
+
+So internally:
+
+Efficient like diffs
+Conceptually like snapshots
 
 ### 🔥 Why This "Snapshot" Intuition Matters
 
 1. **Speed:** Because Git has the "full photo" of every version, switching between branches is nearly instantaneous. It doesn't have to calculate math to figure out what a file looked like; it just grabs the snapshot from that date.
 2. **Integrity:** Everything in Git is check-summed (using a SHA-1 hash) before it is stored. Because it stores snapshots, if even a single bit of data is corrupted, Git will know immediately because the "photo" won't match the original "fingerprint."
 3. **The "Time Machine" Reality:** When you "checkout" an old version, Git isn't undoing lines of code; it is literally replacing your current folder's contents with the contents of that old snapshot.
+
+#### 🎯 Real Meaning of a Commit
+
+👉 A commit is NOT just “saving changes”
+
+👉 A commit =
+A full snapshot + metadata (author, message, time)
 
 ---
 
