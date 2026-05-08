@@ -48,3 +48,15 @@ Think of it like **Video Games vs. Xbox Live**:
 * **Backup:** If your laptop breaks, your local **Git** history is gone. If you synced it to **GitHub**, you can just download (clone) it onto a new machine.
 * **Visibility:** GitHub acts as your **Developer Portfolio**. Other people can see your code, contribute to it, or use it for their own projects.
 * **Collaboration:** GitHub provides tools like **"Pull Requests"**—a fancy way of saying "Hey, I made some changes to your project, please review them and merge them into the main version." Git alone makes this hard; GitHub makes it a conversation.
+
+### 🧠 Interview-Ready Answer
+
+If asked:
+
+👉 “Difference between Git and GitHub?”
+
+Say:
+
+Git is a distributed version control system used to track changes locally
+GitHub is a cloud-based platform that hosts Git repositories and enables collaboration
+Git works independently; GitHub enhances teamwork and sharing
