@@ -23,6 +23,7 @@ GitHub is a **hosting service** for Git repositories. It is a website that lives
 * **Interface:** A graphical web interface with social features like profiles, stars, and follow buttons.
 * **Intuition:** If Git is the "Track Changes" tool, GitHub is **Google Drive** or **Dropbox** where you store that file so your co-author can read it and leave comments.
 
+![gitandgithub image](../assets/gitandgithub.jpg)
 ---
 
 ### 🏗️ The Relationship: How they work together
