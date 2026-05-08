@@ -50,3 +50,5 @@ The **Remote Repository** is a version of your project hosted on the internet or
 | **Checkout** | Local Repo → Working Directory | `git checkout <branch>` |
 
 > **Pro-Tip:** If you ever feel lost, remember: **Add** prepares the photo, **Commit** takes the photo, and **Push** uploads the photo to the cloud.
+
+![basicflow](../assets/basicflow.png)
