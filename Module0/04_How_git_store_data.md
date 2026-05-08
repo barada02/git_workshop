@@ -54,3 +54,14 @@ A full snapshot + metadata (author, message, time)
 
 > **Key takeaway for your notes:** Git is basically a tiny, incredibly fast filesystem that sits on top of your project, taking pictures of your progress every time you tell it to "Commit."
 
+### 🧠 Interview Insight
+
+If asked:
+
+👉 “How does Git store data?”
+
+Answer:
+
+Git stores data as snapshots of the project, not just differences
+Each commit represents a complete state of the repository
+Internally, Git optimizes storage by reusing unchanged files
